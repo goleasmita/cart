@@ -1,0 +1,55 @@
+.hero-section {
+  background: linear-gradient(135deg, rgb(246, 172, 172), rgb(59, 135, 163));
+  font-family: "Courier New", Courier, monospace;
+}
+
+.hero-title {
+  font-family: amatic sc;
+  font-weight: 700;
+  font-size: 70px;
+}
+
+.btn-primary {
+  background-color: rgb(215, 109, 109);
+  padding: 12px 30px;
+  border: none;
+  box-shadow: 4px 4px 1px rgb(117, 106, 106);
+}
+
+.btn-primary:hover {
+  background-color: red;
+}
+
+@media (max-width: 992px) {
+  .hero-title {
+    font-size: 45px;
+    text-align: center;
+  }
+
+  .hero-subtitle,
+  .hero-text {
+    text-align: center;
+  }
+
+  .hero-section .btn {
+    margin-bottom: 15px;
+  }
+
+  .hero-section {
+    padding: 60px 0;
+  }
+
+  .hero-image {
+    margin-top: 40px;
+  }
+
+  .hero-btn {
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero-section .row {
+    display: flex !important;
+    flex-direction: column-reverse;
+  }
+}

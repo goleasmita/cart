@@ -1,0 +1,17 @@
+.navbar {
+  background-color: rgb(234, 120, 120);
+  border-radius: 60px;
+  width: 50%;
+  margin: auto;
+  margin-top: 20px;
+  transition: all 0.4s ease;
+}
+
+.transparent-nav {
+  background-color: rgba(255, 255, 255, 0.25) !important;
+  backdrop-filter: blur(10px);
+}
+
+.navbar .nav-link {
+  color: white;
+}
